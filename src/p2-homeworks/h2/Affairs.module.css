@@ -10,17 +10,21 @@
     margin-bottom: 10px;
 }
 
+.btnDelete:hover {
+    background-color: darkred;
+}
 
 .hundred {
     min-width: 100px;
 }
 
-button {
+.sort {
     min-width: 80px;
     background-color: darkgreen;
     color: #21e021;
     margin-right: 20px;
 }
-button:hover {
+
+.sort:hover {
     background-color: #9bda9b;
 }
