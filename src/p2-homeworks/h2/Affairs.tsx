@@ -2,6 +2,7 @@ import React from "react";
 import Affair from "./Affair";
 import { AffairType, FilterType } from "./HW2";
 import s from "./Affairs.module.css";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 type AffairsPropsType = {
   // need to fix any
@@ -36,18 +37,18 @@ function Affairs(props: AffairsPropsType) {
     <div>
       {mappedAffairs}
 
-      <button className={s.sort} onClick={setAll}>
+      <SuperButton className={s.sort} onClick={setAll}>
         All
-      </button>
-      <button className={s.sort} onClick={setHigh}>
+      </SuperButton>
+      <SuperButton className={s.sort} onClick={setHigh}>
         High
-      </button>
-      <button className={s.sort} onClick={setMiddle}>
+      </SuperButton>
+      <SuperButton className={s.sort} onClick={setMiddle}>
         Middle
-      </button>
-      <button className={s.sort} onClick={setLow}>
+      </SuperButton>
+      <SuperButton className={s.sort} onClick={setLow}>
         Low
-      </button>
+      </SuperButton>
     </div>
   );
 }
