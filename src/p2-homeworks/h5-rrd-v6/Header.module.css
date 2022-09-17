@@ -1,0 +1,42 @@
+.main {
+    margin-bottom: 30px;
+    display: flex;
+    height: 50px;
+    width: 350px;
+    align-items: end;
+    transition-duration: 1500ms;
+    transform: translate(-280px);
+}
+
+.main:hover {
+    transition-duration: 500ms;
+    transform: translate(0px);
+}
+
+.main * {
+    margin-left: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #32c04c;
+}
+
+.active {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: hotpink;
+}
+.block {
+    height: 20px;
+    width: 20px;
+    border: 1px solid blueviolet;
+    background: #dd3355;
+    border-radius: 50%;
+}
+
+.link:hover {
+    color: #7935b7;
+}
+

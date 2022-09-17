@@ -1,0 +1,24 @@
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: blueviolet;
+}
+
+.mainTitle {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.mainSubTitle {
+    font-size: 50px;
+}
+
+.mainText {
+    font-size: 30px;
+}
+
+.mainPic {
+    font-size: 150px;
+}
