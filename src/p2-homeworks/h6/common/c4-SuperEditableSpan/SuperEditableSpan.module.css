@@ -1,0 +1,8 @@
+.editSpan {
+    display: block;
+    width: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: bold;
+    color: #003300;
+}
